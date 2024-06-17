@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  prod:
+    container_name: ixo-explorer
+    image: ghcr.io/ixofoundation/explorer:v0.0.1
+    restart: unless-stopped
+    ports:
+      - 3004:5173
+  dev:
+    container_name: ixo-explorer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    image: ghcr.io/ixofoundation/explorer:dev
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+    ports:
+      - 3001:5173
