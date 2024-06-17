@@ -1,0 +1,28 @@
+{
+  "chain_name": "devnet-ixo",
+  "coingecko": "ixo",
+  "api": [
+    "https://devnet.ixo.earth/rest"
+  ],
+  "rpc": [
+    "https://devnet.ixo.earth/rpc"
+  ],
+  "grpc": [
+    "devnet-grpc.ixo.earth"
+  ],
+  "sdk_version": "0.45.16",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "ixo",
+  "logo": "https://explorer.ixo.earth/ixo.svg",
+  "theme_color": "#2ba1c7",
+  "assets": [
+    {
+      "base": "uixo",
+      "symbol": "IXO",
+      "exponent": "6",
+      "coingecko_id": "ixo",
+      "logo": "https://explorer.ixo.earth/ixo.svg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chain_name": "ixo",
+  "coingecko": "ixo",
+  "api": [
+    "https://ixo.api.m.stavr.tech"
+  ],
+  "rpc": [
+    "https://ixo.rpc.m.stavr.tech:443"
+  ],
+  "grpc": [
+    "ixo.grpc.m.stavr.tech:2010"
+  ],
+  "sdk_version": "0.45.16",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "ixo",
+  "logo": "https://explorer.ixo.earth/ixo.svg",
+  "theme_color": "#2ba1c7",
+  "assets": [
+    {
+      "base": "uixo",
+      "symbol": "IXO",
+      "exponent": "6",
+      "coingecko_id": "ixo",
+      "logo": "https://explorer.ixo.earth/ixo.svg"
+    }
+  ]
+}
