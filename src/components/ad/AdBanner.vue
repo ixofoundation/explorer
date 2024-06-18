@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<!-- <script lang="ts" setup>
 import { onMounted, ref } from 'vue';
 import { getClient, getUnit } from './ad';
 
@@ -23,8 +23,8 @@ onMounted(() => {
   }
 });
 
-</script>
+</script> -->
 <template>
-  <div v-show="show" :id="id" :unit="unit" class="grid justify-items-center overflow-auto pt-4">
-  </div>
+  <!-- <div v-show="show" :id="id" :unit="unit" class="grid justify-items-center overflow-auto pt-4">
+  </div> -->
 </template>
