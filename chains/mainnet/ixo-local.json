@@ -1,0 +1,28 @@
+{
+  "chain_name": "local-ixo",
+  "coingecko": "ixo",
+  "api": [
+    "http://localhost:1317"
+  ],
+  "rpc": [
+    "http://localhost:26657"
+  ],
+  "grpc": [
+    "http://localhost:9090"
+  ],
+  "sdk_version": "0.50.8",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "ixo",
+  "logo": "https://explorer.ixo.earth/ixo.svg",
+  "theme_color": "#2ba1c7",
+  "assets": [
+    {
+      "base": "uixo",
+      "symbol": "IXO",
+      "exponent": "6",
+      "coingecko_id": "ixo",
+      "logo": "https://explorer.ixo.earth/ixo.svg"
+    }
+  ]
+}
